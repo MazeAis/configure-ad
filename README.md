@@ -1,52 +1,63 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+  <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo" width="300"/>
 </p>
 
-<h1>Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+# Active Directory Deployed in the Cloud (Azure)
 
+This tutorial outlines the implementation of **Active Directory within Azure Virtual Machines**.
 
-<h2>Environments and Technologies Used</h2>
+---
 
-- Microsoft Azure (Virtual Machines/Compute)
+## 🛠️ Environments and Technologies Used
+
+- Microsoft Azure (Virtual Machines / Compute)
 - Remote Desktop
-- Active Directory Domain Services
+- Active Directory Domain Services (AD DS)
 - PowerShell
 
-<h2>Operating Systems Used </h2>
+---
+
+## 💻 Operating Systems Used
 
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+---
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+## 📋 High-Level Deployment and Configuration Steps
 
-<h2>Deployment and Configuration Steps</h2>
+1. Step 1
+2. Step 2
+3. Step 3
+4. Step 4
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+---
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+## 🚀 Deployment and Configuration Steps
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+### 📸 Screenshot Example
+
+<p align="center">
+  <img src="https://i.imgur.com/DJmEXEB.png" alt="Deployment Screenshot" width="800"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+
+---
+
+<p align="center">
+  <img src="https://i.imgur.com/DJmEXEB.png" alt="Deployment Screenshot" width="800"/>
 </p>
-<br />
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+
+---
+
+<p align="center">
+  <img src="https://i.imgur.com/DJmEXEB.png" alt="Deployment Screenshot" width="800"/>
+</p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+
+---
+
