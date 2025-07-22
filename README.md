@@ -86,10 +86,10 @@ To start setting up your Active Directory, first create a Resource Group. Naviga
 ---
 
 <p align="center">
-  <img src="https://i.imgur.com/DJmEXEB.png" alt="Deployment Screenshot" width="800"/>
+  <img src="https://i.imgur.com/YgC0GuZ.png" alt="Deployment Screenshot" width="800"/>
 </p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+We now need to set up a virtual network. Navigate to the 'Virtual Network' section in the Azure portal and choose the resource group you just created. Next, name your network and select the same region you chose earlier. Once done, review and create the network, leaving the rest of the tabs at their default settings.
 
 ---
 
