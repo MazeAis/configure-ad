@@ -118,9 +118,18 @@ This tutorial outlines the implementation of **Active Directory within Azure Vir
   ```powershell
   ping <DC-1 Private IP Address>
 
-Ensure the ping succeeds.
+Ensure that the ping succeeds.
 
-Next, verify DNS configuration:
- ```powershell
+Verify DNS Configuration
+Run the following command to confirm DNS setup:
+```powershell
 ipconfig /all
+```
+
+
+Confirm that the DNS Server shows DC-1’s private IP address.
+
+🎉 Setup Complete!
+Your Azure-hosted Active Directory environment is now operational.
+
 
