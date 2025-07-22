@@ -94,10 +94,49 @@ We now need to set up a virtual network. Navigate to the 'Virtual Network' secti
 ---
 
 <p align="center">
-  <img src="https://i.imgur.com/DJmEXEB.png" alt="Deployment Screenshot" width="800"/>
+  <img src="https://i.imgur.com/O34GRur.png" alt="Deployment Screenshot" width="800"/>
 </p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+Navigate to Virtual Machines to create your Domain Controller VM (Windows Server 2022). Select your existing Resource Group and name your server. Choose the same region you've been using previously. Ensure your image is set to Windows Server. Next, set up your account with a username and password, and review the licensing agreements.
 
 ---
+
+<p align="center">
+  <img src="https://i.imgur.com/ybwR7er.png" alt="Deployment Screenshot" width="800"/>
+</p>
+
+Navigate to your server’s network settings in the Azure portal. Select the network interface card (NIC), then select IP configurations. Here, set the private IP address to static. This will prevent conflicts if the IP address changes after a restart or update. Then, log into the Virtual Machine and temporarily disable the Windows Firewall while testing connectivity.
+
+---
+
+<p align="center">
+  <img src="https://i.imgur.com/PCTtIxH.png" alt="Deployment Screenshot" width="800"/>
+</p>
+
+Follow the same Virtual Machine creation steps to create another virtual machine. Choose a different machine name, and use a standard Windows 10 image.
+
+---
+
+<p align="center">
+  <img src="https://i.imgur.com/jteAWOT.png" alt="Deployment Screenshot" width="800"/>
+</p>
+
+Update this virtual machine’s (Client-1) DNS settings to use the private IP address of the server (DC-1). This will allow it to locate and connect to the Domain Controller. Restart the machine in the Azure portal to apply the changes.
+
+---
+
+**Test Connectivity**
+   - Log into Client-1.
+   - Open Command Prompt or PowerShell.
+   - Run:  
+     ```powershell
+     ping <DC-1 Private IP Address>
+     ```
+   - Ensure that the ping succeeds.
+**Verify DNS Configuration**
+   - In PowerShell, run:
+     ```powershell
+     ipconfig /all
+     ```
+   - Confirm that **DNS Server** shows **DC-1’s Private IP Address**.
 
