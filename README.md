@@ -81,7 +81,7 @@ This tutorial outlines the implementation of **Active Directory within Azure Vir
   <img src="https://i.imgur.com/UO7qOgo.png" alt="Deployment Screenshot" width="800"/>
 </p>
 
-To start setting up your Active Directory, first create a Resource Group. Navigate to the Resource Groups section in the Azure portal and name your resource group. Next, select your region (it’s important that all your resources remain in the same region). Once done, review and create the resource group, leaving the rest of the tabs at their default settings.
+To start setting up your Active Directory, first create a Resource Group. Navigate to the Resource Groups section in the Azure portal and name your resource group. Next, select your region (it’s important that all your networks and machines remain in the same region). Once done, review and create the resource group, leaving the rest of the tabs at their default settings.
 
 ---
 
