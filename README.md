@@ -134,7 +134,7 @@ Your Azure-hosted Active Directory environment is now operational.
 
 ### ✅ Summary
 
-This project demonstrates the deployment and configuration of **Active Directory Domain Services (AD DS)** in Microsoft Azure.
+This project demonstrates the deployment and configuration of **Active Directory Domain Services** in Microsoft Azure.
 
 By setting up a Windows Server VM as a **Domain Controller (DC-1)** and connecting a Windows 10 client (Client-1) within the same virtual network, this lab covered:
 
