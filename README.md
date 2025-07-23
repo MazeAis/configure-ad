@@ -132,4 +132,18 @@ Confirm that the DNS Server shows DC-1’s private IP address.
 🎉 Setup Complete!
 Your Azure-hosted Active Directory environment is now operational.
 
+### ✅ Summary
+
+This project demonstrates the deployment and configuration of **Active Directory Domain Services (AD DS)** in Microsoft Azure.
+
+By setting up a Windows Server VM as a **Domain Controller (DC-1)** and connecting a Windows 10 client (Client-1) within the same virtual network, this lab covered:
+
+- Creating and managing a cloud-based **Active Directory environment**
+- Assigning a **static private IP** to ensure consistent DNS resolution
+- Configuring a client machine to use the domain controller as its **DNS server**
+- Testing network connectivity and verifying Active Directory services
+
+Through this project, I gained hands-on experience with Azure VM provisioning, virtual networking, DNS configuration, and foundational Active Directory administration—key skills for cloud infrastructure and IT administration roles.
+
+
 
